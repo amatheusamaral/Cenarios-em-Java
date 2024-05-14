@@ -5,7 +5,6 @@ public class Programa {
         Livro livro1 = new Livro("1598FHK", "Core Java 2", "Cay S. Horstmann e Gary Cornell", "0130819336", 2005);
         Livro livro2 = new Livro("9865PLO", "Java, Como programar", "Harvey Deitel", "0130341517", 2015);
 
-        // Apresentando os dados na tela
         System.out.println("Livro 01:");
         System.out.println("Código: " + livro1.getCodigo());
         System.out.println("Título: " + livro1.getTitulo());
