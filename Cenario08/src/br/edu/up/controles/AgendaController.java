@@ -1,8 +1,8 @@
 package br.edu.up.controles;
 
-import br.edu.up.model.Contato;
-import br.edu.up.model.ContatoPessoal;
-import br.edu.up.model.ContatoComercial;
+import br.edu.up.modelos.Contato;
+import br.edu.up.modelos.ContatoPessoal;
+import br.edu.up.modelos.ContatoComercial;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
