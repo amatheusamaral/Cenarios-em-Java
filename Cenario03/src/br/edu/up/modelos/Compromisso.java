@@ -37,7 +37,7 @@ public class Compromisso {
 
     @Override
     public String toString() {
-        return "Compromisso [pessoa=" + pessoa + ", local=" + local + ", hora=" + hora + ", dia=" + dia + ", mes="
+        return "compromisso [pessoa=" + pessoa + ", local=" + local + ", hora=" + hora + ", dia=" + dia + ", mes="
                 + mes + "]";
     }
 }
