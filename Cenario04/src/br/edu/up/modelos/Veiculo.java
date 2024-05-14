@@ -11,7 +11,6 @@ public class Veiculo {
         this.cor = cor;
     }
 
-    // Getters e Setters
     public String getModelo() {
         return modelo;
     }

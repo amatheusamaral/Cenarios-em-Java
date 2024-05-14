@@ -19,8 +19,8 @@ public class EstacionamentoController {
             String cor = scanner.nextLine();
 
             System.out.println("Veículo registrado com sucesso!");
-            vagasDisponiveis--; // Reduz o número de vagas disponíveis
-            veiculosEstacionados++; // Aumenta o número de veículos estacionados
+            vagasDisponiveis--; 
+            veiculosEstacionados++; 
         } else {
             System.out.println("O estacionamento está lotado. Não é possível registrar a entrada.");
         }
@@ -32,7 +32,7 @@ public class EstacionamentoController {
             String placa = scanner.nextLine();
 
             System.out.println("Veículo com placa " + placa + " saiu do estacionamento.");
-            veiculosEstacionados--; // Reduz o número de veículos estacionados
+            veiculosEstacionados--; 
         } else {
             System.out.println("Não há veículos estacionados para registrar a saída.");
         }
@@ -44,7 +44,7 @@ public class EstacionamentoController {
         System.out.println("Veículos que saíram: " + (10 - vagasDisponiveis - veiculosEstacionados));
         double valorTotal = (10 - vagasDisponiveis - veiculosEstacionados) * VALOR_POR_PERIODO;
         System.out.println("Valor total arrecadado no período: R$" + valorTotal);
-        valorTotalPeriodo += valorTotal; // Atualiza o valor total arrecadado
+        valorTotalPeriodo += valorTotal; 
     }
 }
 
