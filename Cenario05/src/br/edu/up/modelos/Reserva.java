@@ -1,4 +1,3 @@
-// Reserva.java
 package br.edu.up.modelos;
 
 import java.util.Date;

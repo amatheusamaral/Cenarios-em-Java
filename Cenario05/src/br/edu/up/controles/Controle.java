@@ -1,4 +1,3 @@
-// Controle.java
 package br.edu.up.controles;
 
 import br.edu.up.modelos.Evento;
@@ -43,15 +42,12 @@ public class Controle {
         }
     }
 
-    // Métodos para alterar, excluir e outras operações com eventos
 
     public void cadastrarReserva() {
         String responsavel = tela.lerString("Informe o nome do responsável pela reserva");
         int quantidadePessoas = tela.lerInteiro("Informe a quantidade de pessoas");
         Date dataReserva = tela.lerData("Informe a data da reserva");
 
-        // Lógica para calcular o valor total da reserva
-        // Neste exemplo, considerando que o valor total seja a quantidade de pessoas multiplicada pelo preço do ingresso
         double valorTotal = quantidadePessoas * eventos.get(0).getPrecoIngresso();
 
         Reserva reserva = new Reserva(responsavel, quantidadePessoas, dataReserva, valorTotal);
@@ -59,5 +55,4 @@ public class Controle {
         System.out.println("Reserva cadastrada com sucesso!");
     }
 
-    // Métodos para listar, alterar, excluir e outras operações com reservas
 }
